@@ -1,11 +1,8 @@
 /*
-*问题描述
-
-给定一个排序的数组，只有一个数只出现一次，其余都出现2次，找出出现一次的数，时间复杂度o(logn),空间复杂度o(1).
-问题分析
-
-二分查找
-*/
+ * 540. Single Element in a Sorted Array
+ *问题描述:给定一个排序的数组，只有一个数只出现一次，其余都出现2次，找出出现一次的数，时间复杂度o(logn),空间复杂度o(1).
+ *问题分析:二分查找
+ */
 
  class Solution {
      public int singleNonDuplicate(int[] nums) {
